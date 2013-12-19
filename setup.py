@@ -27,6 +27,6 @@ setup(name='ajaplugin_hg',
           'path.py',
       ],
       entry_points={
-          'aja.plugins.vcs': 'hg = ajaplugin.hg:Mercurial',
+          'aja.plugins.vcs': 'hg = ajaplugin_hg.mercurial:Mercurial',
       },
       )
